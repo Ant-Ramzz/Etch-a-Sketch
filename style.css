@@ -2,11 +2,23 @@
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    height: 600px;
-    width: 600px;
+    min-height: 600px;
+    min-width: 600px;
     flex-direction: row;
     justify-content: flex-start;
 
+
+}
+p{
+    color: white;
+}
+.Bar{
+    display: flex; 
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    justify-content: center;
 }
 
 .grid{
@@ -19,7 +31,27 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color:darkslategray;
+}
 
+#box{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
 
+}
+#buttons{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   align-items:flex-end;
+    justify-content: center;
+   gap: 2%;
+}
+#Throw {
+    flex: 1;
+}
+.styles{
+margin-right: 10%;
+min-width: 20%;
 }
