@@ -22,8 +22,8 @@ sizeButton.addEventListener('click',() =>{
 bW.addEventListener('click',() => colorSetting =1)
 rainbow.addEventListener('click',() => colorSetting =2)
 dark.addEventListener('click',() => {
-    (dark.textContent.includes('On')) ? dark.textContent ='Colors Gets Darker :Off':
-    dark.textContent ='Colors Gets Darker :On';
+    (dark.textContent.includes('On')) ? dark.textContent ='Colors Gets Darker : Off':
+    dark.textContent ='Colors Gets Darker : On';
 })
 reset.addEventListener('click',() => {
     removeAllChildNodes(x)
